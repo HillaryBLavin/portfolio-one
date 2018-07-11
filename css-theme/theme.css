@@ -85,7 +85,7 @@ a.btn-flat,
     display: inline-block;
     text-transform: uppercase;
     background-color: #27c1f0;
-    border-bottom: solid 2px #25b7ca;
+    border-bottom: solid 2px #27c1f0;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
@@ -1310,7 +1310,7 @@ a.btn-white:focus {
     font-weight: 600;
     margin-top: 20px;
     padding: 18px 28px;
-    border-bottom: solid 2px #25b7ca;
+    border-bottom: solid 2px #27c1f0;
     -webkit-border-radius: 1px;
     -moz-border-radius: 1px;
     border-radius: 1px;
@@ -1591,7 +1591,7 @@ a.btn-white:focus {
 .title-contact {
     margin-top: 0;
     margin-bottom: 6px;
-    color: #25b7ca;
+    color: #27c1f0;
     font-size: 28px;
     font-weight: 700;
 }
