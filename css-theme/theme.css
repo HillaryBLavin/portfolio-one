@@ -640,7 +640,10 @@ a.btn-white:focus {
 }
 /* FEATURES
    ================================================== */
-
+.feature-icon {
+    font-size: 105px;
+    color: rgba(102, 9, 156, 0.918);
+}
 .bg-features {
     text-align: center
 }
