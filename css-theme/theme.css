@@ -66,7 +66,7 @@ hr {
     border-top: solid 1px #abb0be;
     width: 8%;
     margin-top: 30px;
-    margin-bottom: 120px;
+    margin-bottom: 20px;
 }
 
 /* BTN FLAT
@@ -1614,7 +1614,10 @@ a.btn-white:focus {
 
 /* CONTACT
    ================================================== */
-
+#email-link {
+    color: #27c1f0;
+    font-weight: bold;
+}
 .container-contact {
     padding-bottom: 80px
 }
