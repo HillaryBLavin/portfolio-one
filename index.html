@@ -11,7 +11,7 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <!-- GOOGLE FONTS -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700,300,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700,300,800' rel='stylesheet' type='text/css'>
     <!-- PLUGINS-CSS-->
     <!--===============================================================-->   
     <link rel="stylesheet" href="css-theme/font-awesome.min.css" type="text/css" >
@@ -281,15 +281,32 @@
           <hr class="hr-contact">
         </div>
       </div>
-      <!-- GOOGLE-MAPS -->
-      <!-- <div class="row">
-        <div class="col-map col-sm-12 wow fadeInUp ">
-          <div  id="map-canvas">
+      <!-- CONTACT-FORM HTML -->
+      <div class="row-contact row">
+        <div class="col-sm-6">
+          <div class="row wow fadeInUp">
+            <form method="POST" enctype="text/plain" action="mailto:hello@hillaryblavin.com" role="form" class="form-contact">
+              <div class="col-sm-12">
+                <div class="form-group">
+                  <input class="form-control form-flat" type="text" name="name" id="name" placeholder="Name" >
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="form-group">
+                  <input class="form-control form-flat" type="text" name="email" id="email" placeholder="Email" > 
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="form-group">
+                  <textarea name="message" class="form-control form-flat" id="message"></textarea>
+                </div>
+                <button type="submit" class="submit btn btn-flat">Submit</button>
+              </div>
+            </form>
           </div>
         </div>
-      </div> -->
-      <!-- CONTACT-FORM -->
-      <div class="row-contact row">
+      <!-- CONTACT-FORM PHP -->
+      <!-- <div class="row-contact row">
         <div class="col-sm-6">
           <div class="row wow fadeInUp">
             <form method="POST" id="ajax_form" action="email.php" role="form" class="form-contact">
@@ -311,7 +328,7 @@
               </div>
             </form>
           </div>
-        </div>
+        </div> -->
 
         <!-- CONTACT-INFO -->
         <div class="col-sm-6">
